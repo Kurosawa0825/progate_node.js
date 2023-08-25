@@ -1,0 +1,21 @@
+{
+  "name": "nodejs_lesson",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "ejs": "ejs-cli --base-dir/ 'index.ejs' --out dest/",
+    "eslint": "eslint ./",
+    "start": "nodemon -r './.module' ./app.js"
+  },
+  "author": "Progate",
+  "license": "ISC",
+  "dependencies": {
+    "ejs-cli": "^2.2.3",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "ejs": "^2.7.4",
+    "nodemon": "^1.19.4"
+  }
+}
